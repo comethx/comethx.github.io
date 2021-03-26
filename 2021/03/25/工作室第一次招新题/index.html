@@ -8,19 +8,19 @@
   <link rel="dns-prefetch" href="http://example.com">
   <title>“择栖工作室招新” | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="择栖工作室第一次招新题（博文测试）题目：下列Python程序生成了三维空间中的一系列点，获得了坐标x、y、z，他们的分布可以使用一个平面去近似，本质上就是一个三维的线性回归问题：Z&#x3D;aX+bY+c。其中a、b和c即为我们需要通过机器学习去获得的量。">
+  <meta name="description" content="题目下列Python程序生成了三维空间中的一系列点，获得了坐标x、y、z，他们的分布可以使用一个平面去近似，本质上就是一个三维的线性回归问题：Z&#x3D;aX+bY+c。其中a、b和c即为我们需要通过机器学习去获得的量。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="“择栖工作室招新”">
 <meta property="og:url" content="http://example.com/2021/03/25/%E5%B7%A5%E4%BD%9C%E5%AE%A4%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8B%9B%E6%96%B0%E9%A2%98/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="择栖工作室第一次招新题（博文测试）题目：下列Python程序生成了三维空间中的一系列点，获得了坐标x、y、z，他们的分布可以使用一个平面去近似，本质上就是一个三维的线性回归问题：Z&#x3D;aX+bY+c。其中a、b和c即为我们需要通过机器学习去获得的量。">
+<meta property="og:description" content="题目下列Python程序生成了三维空间中的一系列点，获得了坐标x、y、z，他们的分布可以使用一个平面去近似，本质上就是一个三维的线性回归问题：Z&#x3D;aX+bY+c。其中a、b和c即为我们需要通过机器学习去获得的量。">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://example.com/2021/03/25/%E5%B7%A5%E4%BD%9C%E5%AE%A4%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8B%9B%E6%96%B0%E9%A2%98/123.png">
+<meta property="og:image" content="http://example.com/.com//123.png">
 <meta property="article:published_time" content="2021-03-25T11:34:34.000Z">
-<meta property="article:modified_time" content="2021-03-26T08:13:37.538Z">
+<meta property="article:modified_time" content="2021-03-26T08:44:04.612Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/2021/03/25/%E5%B7%A5%E4%BD%9C%E5%AE%A4%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8B%9B%E6%96%B0%E9%A2%98/123.png">
+<meta name="twitter:image" content="http://example.com/.com//123.png">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -45,9 +45,8 @@
     <canvas id="anm-canvas" class="anm-canvas"></canvas>
     <div class="left-col" q-class="show:isShow">
       
-<!-- <div class="overlay" style="background: #008B8B"> -->
-<!-- 左侧边栏（上半部分）不设置背景颜色 -->
-<div class="overlay" >
+<div class="overlay" style="background: #008B8B"></div>
+<div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
 			<img src="/img/touxiang.jpg" class="js-avatar">
@@ -177,12 +176,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="择栖工作室第一次招新题（博文测试）"><a href="#择栖工作室第一次招新题（博文测试）" class="headerlink" title="择栖工作室第一次招新题（博文测试）"></a>择栖工作室第一次招新题（博文测试）</h2><p><strong>题目</strong>：下列Python程序生成了三维空间中的一系列点，获得了坐标x、y、z，他们的分布可以使用一个平面去近似，本质上就是一个三维的线性回归问题：Z=aX+bY+c。其中a、b和c即为我们需要通过机器学习去获得的量。</p>
+        <h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>下列Python程序生成了三维空间中的一系列点，获得了坐标x、y、z，他们的分布可以使用一个平面去近似，本质上就是一个三维的线性回归问题：Z=aX+bY+c。其中a、b和c即为我们需要通过机器学习去获得的量。</p>
 <span id="more"></span>
 
 <p>要求使用梯度下降算法，使用任意方式去实现这一算法，完成对于我们所给出的data_creater_3d函数所生成的数据的拟合。</p>
-<p><img src="/2021/03/25/%E5%B7%A5%E4%BD%9C%E5%AE%A4%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8B%9B%E6%96%B0%E9%A2%98/123.png"></p>
-<p><strong>解法：</strong>题目的要求就是用一个三维平面去拟合一系列三维空间里的坐标点，总题思路就是，先随机生成一个平面，再利用最小二乘法，构造所有点与平面的差值，构造损失函数，再利用梯度下降调整参数，得到最优解。</p>
+<p><img src="/.com//123.png" alt="123"></p>
+<h2 id="解法"><a href="#解法" class="headerlink" title="解法"></a>解法</h2><p>题目的要求就是用一个三维平面去拟合一系列三维空间里的坐标点，总题思路就是，先随机生成一个平面，再利用最小二乘法，构造所有点与平面的差值，构造损失函数，再利用梯度下降调整参数，得到最优解。</p>
 <p>（PS:博主的能力有限，代码可能存在不少待改进的地方，恳请各路大佬指正）</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br></pre></td><td class="code"><pre><span class="line">import numpy as np</span><br><span class="line">import tensorflow as tf</span><br><span class="line">#题目自带创建随机点的函数</span><br><span class="line">def data_create_3d(w1, w2, b, amount, size, turb):</span><br><span class="line">    X &#x3D; np.random.normal(size&#x3D;(amount, 2), scale&#x3D;size)</span><br><span class="line">    w &#x3D; np.array((w1, w2))</span><br><span class="line">    delta &#x3D; np.random.normal(size&#x3D;amount, scale&#x3D;size) * turb</span><br><span class="line">    y &#x3D; np.dot(X, w) + b + delta</span><br><span class="line">    return X[:, 0], X[:, 1], y</span><br><span class="line"></span><br><span class="line">print(&quot;目标值-&gt;&quot;,&quot;w1:&quot;, 2, &quot;w2:&quot;, 3, &quot;b:&quot;, 20)</span><br><span class="line"></span><br><span class="line">#得到各点的值</span><br><span class="line">x, y, z &#x3D; data_create_3d(2, 3, 20, 1000, 10, 3)</span><br><span class="line"></span><br><span class="line">#构造损失函数f</span><br><span class="line">def loss(w1, w2, b):</span><br><span class="line">    f &#x3D; 0</span><br><span class="line">    for i in range(0, 1000):</span><br><span class="line">        f +&#x3D; (w1*x[i]+w2*y[i]+b-z[i])**2</span><br><span class="line">    f &#x2F; 1000  </span><br><span class="line">    </span><br><span class="line">    return f</span><br><span class="line"></span><br><span class="line">if __name__ &#x3D;&#x3D; &quot;__main__&quot;:</span><br><span class="line">#构造变量 原函数为y&#x3D;w1x+w2z+b</span><br><span class="line"></span><br><span class="line">    w1&#x3D;tf.Variable(1.0)</span><br><span class="line">    w2&#x3D;tf.Variable(2.0)</span><br><span class="line">    b&#x3D;tf.Variable(25.0)</span><br><span class="line"></span><br><span class="line">    </span><br><span class="line">    cnt &#x3D; 0#循环计数器</span><br><span class="line">    foot1 &#x3D; 0.000001 #w1学习率</span><br><span class="line">    foot2 &#x3D; 0.000001 #w2学习率</span><br><span class="line">    foot3 &#x3D; 0.0001 #b学习率</span><br><span class="line">    yuzhi &#x3D; 100 #迭代阈值</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    while True:</span><br><span class="line">        cnt +&#x3D; 1</span><br><span class="line">        with tf.GradientTape(persistent&#x3D;True) as tape:</span><br><span class="line">            losss &#x3D; loss(w1, w2, b)</span><br><span class="line">#计算三个变量的偏导数↓        </span><br><span class="line">        dw1 &#x3D; tape.gradient(losss, w1)</span><br><span class="line">        dw2 &#x3D; tape.gradient(losss, w2)</span><br><span class="line">        db &#x3D; tape.gradient(losss, b)</span><br><span class="line">#储存上次损失函数,用作下面作差使用</span><br><span class="line">        pre &#x3D; loss(w1, w2, b)</span><br><span class="line">#根据导数更新参量的值</span><br><span class="line">        w1.assign_sub(foot1*dw1)</span><br><span class="line">        w2.assign_sub(foot2*dw2)</span><br><span class="line">        b.assign_sub(foot3*db)</span><br><span class="line">#作两次迭代函数的差</span><br><span class="line">        derta &#x3D; abs(loss(w1, w2, b)-pre)</span><br><span class="line">#每轮各数据打印</span><br><span class="line">       	print(&quot;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;\n迭代次数：&quot;,cnt)</span><br><span class="line">        tf.print(&quot;loss:&quot;,loss(w1,w2,b))  </span><br><span class="line">        a&#x3D;tf.print(&quot;w1:&quot;w1)</span><br><span class="line">        d&#x3D;tf.print(&quot;w2:&quot;,w2)</span><br><span class="line">        c&#x3D;tf.print(&quot;b:&quot;,b)</span><br><span class="line">#结束条件</span><br><span class="line">        if derta &lt; yuzhi:</span><br><span class="line">            print(&quot;迭代结束！&quot;)</span><br><span class="line">            break </span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
@@ -203,7 +202,7 @@
             <span class="tooltip-content">
               <span class="tooltip-text">
                 <span class="tooltip-inner">
-                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖er！<i class="icon icon-quo-right"></i></p>
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖！<i class="icon icon-quo-right"></i></p>
                   <div class="reward-box">
                     
                     
