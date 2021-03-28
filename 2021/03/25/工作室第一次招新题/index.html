@@ -342,6 +342,33 @@
   
   
 
+
+    <section id="comments" class="comments">
+      <style>
+        .comments{margin:30px;padding:10px;background:#fff}
+        @media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#fff}}
+      </style>
+      <div id="vcomment" class="comment"></div> 
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+   var notify = 'true' == true ? true : false;
+   var verify = 'false' == true ? true : false;
+    window.onload = function() {
+        new Valine({
+            el: '.comment',
+            notify: notify,
+            verify: verify,
+            app_id: "tFaQ4OiHo8vYaRnIwt65SFcO-gzGzoHsz",
+            app_key: "k3gDgp7l6atSgFTbzM7K7cVC",
+            placeholder: "要说点啥=。=",
+            avatar:"retro"
+        });
+    }
+</script>
+
+  </section>
+
           </div>
         </div>
       </div>
